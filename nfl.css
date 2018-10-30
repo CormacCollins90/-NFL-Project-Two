@@ -1,0 +1,163 @@
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  background-image: url("img/american-football.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+}
+
+.bg2 {
+  background-image: url("media/super-bowl-trophy.jpg");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main-heading-page1 {
+  margin-left: 210px;
+  -webkit-transform: rotate(347deg);
+  -moz-transform: rotate(348deg);
+  -o-transform: rotate(348deg);
+  writing-mode: lr-tb;
+}
+
+#super {
+  color: RGB(191, 10, 48);
+  font-size: 70px;
+}
+
+#bowl {
+  color: RGB(255, 255, 255);
+  font-size: 70px;
+}
+
+#history {
+  color: RGB(0, 40, 104);
+  font-size: 70px;
+}
+
+#nav1 {
+  color: red;
+  font-size: 20px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+#nav2 {
+  color: white;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+#nav3 {
+  color: blue;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+#nflstart {
+  position: absolute;
+  top: 150px;
+  height: 325px;
+  margin-left: 300px;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 20px;
+}
+
+#videobg {
+  position: fixed;
+  right: 0;
+  top: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /*background-image: url("img/super-bowl-trophy.jpg");*/
+  /*background-size: 100% 100%;*/
+}
+
+header {
+  /*background: linear-gradient(to bottom right, red, white, blue);*/
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  background-image: url("media/usaflag.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  /*background: #ccc;*/
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  /*background: linear-gradient(to bottom right, red, white, blue);*/
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-image: url("media/usaflag.jpg");
+}
+
+.bg2 {
+  background-image: url("media/super-bowl-trophy.jpg");
+  position: relative;
+  background-repeat: repeat;
+  background-size: 100% 100vh;
+}
+
+#link1 {
+  color: red;
+  font-size: 20px;
+}
+
+#link2 {
+  color: white;
+  font-size: 20px;
+}
+
+#link3 {
+  color: blue;
+  font-size: 20px;
+}
+
+.content {
+  position: absolute;
+  top: 400px;
+  left: 300px;
+}

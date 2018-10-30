@@ -1,0 +1,53 @@
+SuperBowl#,Year,Winning QB,Team,College,Losing QB,Team,College,Winning QB passing yards,Winning QB td-passes,
+I,1966,Bart Starr,Green Bay Packers,Alabama,Len Dawson,Kansas City Chiefs,Purdue,250,2
+II,1967,Bart Starr,Green Bay Packers,Alabama,Daryle Lamonica,Oakland Raiders,Notre Dame,202,1
+III,1968,Joe Namath,New York Jets,Alabama,Earl Morrall,Baltimore Colts,Michigan State,206,0
+IV,1969,Len Dawson,Kansas City Chiefs,Purdue,Joe Kapp,Minnesota Vikings,California,142,1
+V,1970,Johnny Unitas,Baltimore Colts,Louisville,Craig Morton,Dallas Cowboys,California,260,1
+VI,1971,Roger Staubach,Dallas Cowboys,Navy	Bob,Griese,Miami Dolphins,Purdue,119,2
+VII,1972,Bob Griese,Miami Dolphins,Purdue,Billy Kilmer,Washington Redskins,UCLA,88,1
+VIII,1973,Bob Griese,Miami Dolphins,Purdue,Fran Tarkenton,Minnesota Vikings,Georgia,63,0
+IX,1974,Terry Bradshaw,Pittsburgh Steelers,Louisiana Tech,Fran Tarkenton,Minnesota Vikings,Georgia,96,1
+X,1975,Terry Bradshaw,Pittsburgh Steelers,Louisiana Tech,Roger Staubach,Dallas Cowboys,Navy,209,2
+XI,1976,Ken Stabler,Oakland Raiders,Alabama,Fran Tarkenton,Minnesota Vikings,Georgia,180,1
+XII,1977,Roger Staubach,Dallas Cowboys,Navy	Craig Morton,Denver Broncos,California,183,1
+XIII,1978,Terry Bradshaw,Pittsburgh Steelers,Louisiana Tech,Roger Staubach,Dallas Cowboys,Navy,318,4
+XIV,1979,Terry Bradshaw,Pittsburgh Steelers,Louisiana Tech,Vince Ferragamo,Los Angeles Rams,Nebraska,309,2
+XV,1980,Jim Plunkett,Oakland Raiders,Stanford,Ron Jaworski,Philadelphia Eagles,Youngstown State,261,3
+XVI,1981,Joe Montana,San Francisco 49ers,Notre Dame,Ken Anderson,Cincinnati Bengals,Augustana (IL),157,1
+XVII,1982,Joe Theismann,Washington Redskins,Notre Dame,David Woodley,Miami Dolphins,LSU,143,2
+XVIII,1983,Jim Plunkett,Los Angeles Raiders,Stanford,Joe Theismann,Washington Redskins,Notre Dame,172,1
+XIX,1984,Joe Montana,San Francisco 49ers,Notre Dame,Dan Marino,Miami Dolphins,Pittsburgh,331,3
+XX,1985,Jim McMahon,Chicago Bears,BYU,Tony Eason,New England Patriots,Illinois,256,0
+XXI,1986,Phil Simms,New York Giants,Morehead State,John Elway,Denver Broncos,Stanford,268,3
+XXII,1987,Doug Williams,Washington Redskins,Grambling State,John Elway,Denver Broncos,Stanford,340,4
+XXIII,1988,Joe Montana,San Francisco 49ers,Notre Dame,Boomer Esiason,Cincinnati Bengals,Maryland,357,2
+XXIV,1989,Joe Montana,San Francisco 49ers,Notre Dame,John Elway,Denver Broncos,Stanford,297,5
+XXV,1990,Jeff Hostetler,New York Giants,West Virginia,Jim Kelly,Buffalo Bills,Miami (FL),222,1
+XXVI,1991,Mark Rypien,Washington Redskins,Washington State,Jim Kelly,Buffalo Bills,Miami (FL),292,2
+XXVII,1992,Troy Aikman,Dallas Cowboys,UCLA,Jim Kelly,Buffalo Bills,Miami (FL),273,4
+XXVIII,1993,Troy Aikman,Dallas Cowboys,UCLA,Jim Kelly,Buffalo Bills,Miami (FL),207,0
+XXIX,1994,Steve Young,San Francisco 49ers,BYU,Stan Humphries,San Diego Chargers,Northeast Louisiana[a],325,6
+XXX,1995,Troy Aikman,Dallas Cowboys,UCLA,Neil O'Donnell,Pittsburgh Steelers,Maryland,209,1
+XXXI,1996,Brett Favre,Green Bay Packers,Southern Miss,Drew Bledsoe,New England Patriots,Washington State,246,2
+XXXII,1997,John Elway,Denver Broncos,Stanford,Brett Favre,Green Bay Packers,Southern Miss,123,0
+XXXIII,1998,John Elway,Denver Broncos,Stanford,Chris Chandler,Atlanta Falcons,Washington,123,0,336,1
+XXXIV,1999,Kurt Warner,St. Louis Rams,Northern Iowa,Steve McNair,Tennessee Titans,Alcorn State,414,2
+XXXV,2000,Trent Dilfer,Baltimore Ravens,Fresno State,Kerry Collins,New York Giants,Penn State,153,1
+XXXVI,2001,Tom Brady,New England Patriots,Michigan,Kurt Warner,St. Louis Rams,Northern Iowa,145,1
+XXXVII,2002,Brad Johnson,Tampa Bay Buccaneers,Florida State,Rich Gannon,Oakland Raiders,Delaware,215,0
+XXXVIII,2003,Tom Brady,New England Patriots,Michigan,Jake Delhomme,Carolina Panthers,Louisiana–Lafayette,354,3
+XXXIX,2004,Tom Brady,New England Patriots	Michigan,Donovan McNabb,Philadelphia Eagles,Syracuse,236,2
+XL,2005,Ben Roethlisberger,Pittsburgh Steelers,Miami (OH),Matt Hasselbeck,Seattle Seahawks,Boston College,123,1
+XLI,2006,Peyton Manning,Indianapolis Colts,Tennessee,Rex Grossman,Chicago Bears,Florida,247,1
+XLII,2007,Eli Manning,New York Giants,Ole Miss,Tom Brady,New England Patriots,Michigan,255,2
+XLIII,2008,Ben Roethlisberger,Pittsburgh Steelers,Miami (OH),Kurt Warner,Arizona Cardinals,Northern Iowa,256,1
+XLIV,2009,Drew Brees,New Orleans Saints,Purdue,Peyton Manning,Indianapolis Colts,Tennessee,288,2
+XLV,2010,Aaron Rodgers,Green Bay Packers,California,Ben Roethlisberger,Pittsburgh Steelers,Miami (OH),304,3
+XLVI,2011,Eli Manning,New York Giants,Ole Miss,Tom Brady,New England Patriots,Michigan,296,1
+XLVII,2012,Joe Flacco,Baltimore Ravens,Delaware,Colin Kaepernick,San Francisco 49ers,Nevada,287,3
+XLVIII,2013,Russell Wilson,Seattle Seahawks,Wisconsin,Peyton Manning,Denver Broncos,Tennessee,206,2
+L,2014,Tom Brady,New England Patriots,Michigan,Russell Wilson,Seattle Seahawks,Wisconsin,328,4
+LI,2015,Peyton Manning,Denver Broncos,Tennessee,Cam Newton,Carolina Panthers,Auburn,141,0
+LII,2016,Tom Brady,New England Patriots,Michigan,Matt Ryan,Atlanta Falcons,Boston College,466,2
+LIII,2017,Nick Foles,Philadelphia Eagles,Arizona,Tom Brady,New England Patriots,Michigan,373,3

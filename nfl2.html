@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Super Bowl History</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" />
+    <link rel="stylesheet" href="nfl.js" type="text/css" />
+    <link rel="stylesheet" href="QB_history.csv" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css" type="text/css" />
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*background-image: url("img/super-bowl-trophy.jpg");*/
+            /*background-size: 100% 100%;*/
+        }
+
+
+        header {
+            /*background: linear-gradient(to bottom right, red, white, blue);*/
+            padding: 30px;
+            text-align: center;
+            font-size: 50px;
+            color: white;
+             background-image: url("media/usaflag.jpg");
+             background-repeat: no-repeat;
+             background-size: cover;
+             
+
+        }
+
+
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            /*background: #ccc;*/
+            padding: 20px;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+
+        }
+
+
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+
+        footer {
+            /*background: linear-gradient(to bottom right, red, white, blue);*/
+            padding: 10px;
+            text-align: center;
+            color: white;
+            background-image: url("media/usaflag.jpg");
+        }
+
+
+        /*@media (max-width: 1400px) {*/
+
+        /*    nav,*/
+
+        /*    article {*/
+
+        /*        width: 100%;*/
+
+        /*        height: auto;*/
+
+        /*    }*/
+
+        .bg2 {
+
+            background-image: url("media/super-bowl-trophy.jpg");
+            position: absolute;
+            background-repeat: repeat;
+            background-size: cover;
+        }
+
+        #link1 {
+            color: red;
+            font-size: 20px;
+        }
+
+        #link2 {
+            color: white;
+            font-size: 20px;
+
+        }
+
+        #link3 {
+            color: blue;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body class="bg2">
+    <header><img src="media/NFLShield.png" width="30"> NFL Super Bowl <img src="media/NFLShield.png" width="30"> </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#" class="btn btn-primary hvr-pulse-grow"><span id="link1"><strong>QB History</strong></span></a></li>
+                </br>
+                <li><a href="#" class="btn btn-primary hvr-pulse-grow"><span id="link2"><strong>Coach History</strong></span></a></li>
+                </br>
+                <li><a href="#" class="btn btn-danger hvr-pulse-grow"><span id="link3"><strong>Game History</strong></span></a></li>
+                </br>
+                <li><a href="#" class="btn btn-danger hvr-pulse-grow"><span id="link3"><strong>Watch every teams first Super Bowl Victory</strong></span></a></li>
+            </ul>
+        </nav>
+        <article>
+            <h2>Super Bowl History</h2>
+            <p>The Super Bowl is an enormously popular sporting event that takes place each year to determine the championship team of the National Football League (NFL). Millions of fans gather around televisions on a Sunday in January or February to celebrate
+                this de facto national holiday. Broadcast in more than 170 countries, the Super Bowl is one of the most-watched sporting events in the world, with elaborate halftime shows, celebrity appearances and cutting-edge commercials adding to the
+                appeal. After more than 50 years of existence, it’s safe to assume that the Super Bowl has become a legendary symbol of American culture. </p>
+            <hr>
+            <h2 id="section_1">History of the Super Bowl </h2>
+            <p>Though the NFL officially formed in 1920, the Super Bowl didn’t happen until 40 long years later. </p>
+            <P>In 1960, a group of businessmen who wanted to own football franchises – but were denied by the NFL – decided to launch an alternative league, known as the American Football League (AFL). </P>
+            <P>For several years, the NFL and AFL were gridiron rivals, competing for fans, players and support. Then, in 1966, owners negotiated an agreement to merge the leagues by 1970. </P>
+            <P>The first Super Bowl, which featured the AFL and NFL champions, took place in 1966. The game was originally called the “AFL-NFL World Championship Game, ” which wasn’t exactly catchy. </P>
+            <p>The AFL Kansas City Chief’s owner, Lamar Hunt, proposed using the term “Super Bowl” to refer to the championship game.</p>
+            <p>After the leagues merged, the NFL split into two main conferences: the American Football Conference (AFC) and the National Football Conference (NFC). The champions of each now play in the Super Bowl. </p>
+            </br>
+            <hr>
+            <h2 id="section_2">The First Four Super Bowls </h2>
+            <p>Super Bowl I took place on January 15, 1967, and included the NFL’s Green Bay Packers against the AFL’s Kansas City Chiefs. </p>
+            <p>The game was held at the Los Angeles Coliseum </p>
+            <p>Still, the game aired on two different networks and drew in an audience of more than 61, 000 fans. </p>
+            <p>The Packers outperformed the Chiefs, winning 35-10. The next year, the Packers decisively won again in Super Bowl II, defeating the Oakland Raiders 33-14. Many began to question whether the AFL teams could hold their own in the NFL. </p>
+            <p>But the next year, the AFL’s New York Jets, led by quarterback Joe Namath </p>
+            <p>, defeated the Baltimore Colts in Super Bowl III. Super Bowl IV was the last game played between the two leagues, and the AFL’s Kansas City Chiefs beat the Minnesota Vikings, 23-7. </p>
+            <p>The popularity of the event continued to grow after the leagues integrated.</p>
+            <hr>
+            <h2 id="section_3">Super Bowl: 1970s-Present </h2>
+            <p>During the 1970s, three NFL teams – the Pittsburgh Steelers, the Miami Dolphins and the Dallas Cowboys – dominated the NFL scene and won a combined eight Super Bowls in 10 years.</p>
+            <p>Franchises from the NFC won 16 of the 20 Super Bowls played in the 1980s and 1990s. Teams like the 49ers, the Chicago Bears, the Washington Redskins and the New York Giants stood out during these years.</p>
+            <p>The Cowboys resurged in the 1990s, and the Buffalo Bills became a powerhouse franchise, although they never won a Super Bowl.</p>
+            <p>In the late 1990s and early 2000s, the AFC bounced back. Between 1995 and 2016, five teams – the Broncos, Patriots, Steelers, Baltimore Ravens and Indianapolis Colts – were represented in 20 of the 22 AFC Super Bowl appearances.</p>
+            <p>Throughout the 2010s, AFC and NFC teams appeared to be more evenly matched, with each conference winning nearly an equal amount of championships. Since 2001, the Patriots have appeared in eight Super Bowls.</p>
+            <hr>
+            <h2 id="section_4">Memorable Matchups </h2>
+            <p>Although many sports gurus debate the most exciting and memorable Super Bowl matchups, the following games typically top the lists:</p>
+            <p><strong>Super Bowl LI (Feb. 5,
+2017): </strong>In this epic game, the Patriots overcame a 25-point deficit to win against the Atlanta Falcons in the first overtime Super Bowl game in history.</p>
+            <p><strong>Super Bowl XXV (Jan. 27,
+1991): </strong>A missed field goal by the Bills gave the Giants their second Super Bowl win in five years.</p>
+            <p><strong>Super Bowl XIII (Jan. 21,
+1979): </strong>Steelers quarterback Terry Bradshaw threw for 318 yards and four touchdowns to lead his team to victory over the Cowboys.</p>
+            <p><strong>Super Bowl XLIX (Feb. 1,
+2015): </strong>The Seattle Seahawks decided to pass the ball, instead of running it at the 1-yard line, which resulted in an interception and a win for the Patriots.</p>
+            <p><strong>Super Bowl XXXIV (Jan. 30,
+2000): </strong>The St. Louis Rams stopped the Tennessee Titans at the 1-yard line to win the game.</p>
+            <p><strong>Super Bowl XXXVI (Feb. 3,
+2002): </strong>A game-winning field goal as time expired secured victory for the Patriots over the St. Louis Rams.</p>
+            <p><strong>Super Bowl III (Jan. 12,
+1969): </strong>Although the Jets beat the Baltimore Colts by 9 points, the game was memorable because it was the first time an AFL team was victorious over an NFL team.</p>
+            <p><strong>Super Bowl XLII (Feb. 3,
+2008): </strong>The Giants ruined the Patriots’ hope for a perfect season by scoring the winning touchdown with 35 seconds left on the clock.<strong></strong></p>
+            <hr>
+            <p><strong>Super Bowl Halftime Show</strong></p>
+            <p>The early Super Bowls featured modest marching bands from local high schools or colleges during halftime shows.</p>
+            <p>As the years went on, popular musicians began to take the stage, and the shows evolved into much-anticipated spectacles. Some viewers consider the halftime show, now a full 30-minute act, a bigger event than the actual football game, tuning
+                in solely for the musical entertainment.</p>
+            <p>Internationally famed artists, such as Michael Jackson, U2, Madonna, Bruce Springsteen, Lady Gaga, Paul McCartney, Prince, Coldplay and others have performed during the Super Bowl halftime show.</p>
+            <hr>
+            <h2 id="section_5">Super Bowl and American Culture </h2>
+            <p>While some might consider it just a game, the Super Bowl has become a unique, shared experience in American culture.</p>
+            <p>It’s likely the only time of the year that viewers are glued to television screens watching the same broadcast, even if they don’t care about the teams or the outcome of the game.</p>
+            <p>The Super Bowl combines sports, music and advertising into one extreme event. In essence, it provides a fascinating picture of what many Americans consider ideal entertainment.</p>
+            <hr>
+            <p><strong>Fun Facts About the Super Bowl</strong><strong></strong></p>
+            <ul>
+                <li>The NFL restricts the use of the phrase “Super Bowl” for advertising purposes. Companies often must come up with creative alternatives, such as referring to it as the “Big Game.”</li>
+                </br>
+                <li>The Pittsburgh Steelers have six Super Bowl victories – the most of any team. The Dallas Cowboys, New England Patriots and San Francisco 49ers each have five wins.</li>
+                </br>
+                <li>With five defeats, the Denver Broncos hold the record for the most Super Bowl losses.</li>
+                </br>
+                <li>Teams that have never been to the Super Bowl include the Detroit Lions, the Jacksonville Jaguars and the Houston Texans.</li>
+                </br>
+                <li>With 10 cameos, the Patriots have made the most Super Bowl appearances of any team.</li>
+                </br>
+                <li>The championship team receives the Vince Lombardi Trophy, which is named after the coach of the Green Bay Packers, who won the first two Super Bowls.</li>
+                </br>
+                <li>Because the football season runs into two calendar years, Roman numerals are used to identify each Super Bowl.</li>
+                </br>
+                <li>The Super Bowl venue changes each year, and no team has ever played in its home stadium.</li>
+                </br>
+                <li>Super Bowl Sunday is the second-largest day for food consumption in the United States, with only Thanksgiving ahead of it.</li>
+                </br>
+                <li>According to Nielsen ratings, Super Bowl LI drew an average of 111.3 million viewers in the United States. That’s more than one-third of the country’s population.</li>
+                </br>
+                <li>A typical 30-second commercial that airs during the Super Bowl costs advertisers more than $5 million.</li>
+                </br>
+                <li>Nearly 14 million Americans are expected to call in sick to work the day after the Big Game, which is sometimes dubbed “Super Sick Monday.”</li>
+            </ul>
+        </article>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm col-md-4">
+                    <i class="fab fa-facebook-square"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

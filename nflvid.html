@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>History of the Super Bowl QB's</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" />
+    <link rel="stylesheet" href="nfl.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css" type="text/css" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*background-image: url("img/super-bowl-trophy.jpg");*/
+            /*background-size: 100% 100%;*/
+        }
+
+
+        header {
+            background: linear-gradient(to bottom right, red, white, blue);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: black;
+
+        }
+
+
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            /*background: #ccc;*/
+            padding: 20px;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+
+        }
+
+
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+
+        footer {
+            background: linear-gradient(to bottom right, red, white, blue);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+
+        /*@media (max-width: 1400px) {*/
+
+        /*    nav,*/
+
+        /*    article {*/
+
+        /*        width: 100%;*/
+
+        /*        height: auto;*/
+
+        /*    }*/
+
+        .bg2 {
+
+            background-image: url("img/super-bowl-trophy.jpg");
+            position: absolute;
+            background-repeat: repeat;
+            background-size: cover;
+        }
+
+        #link1 {
+            color: red;
+            font-size: 20px;
+        }
+
+        #link2 {
+            color: white;
+            font-size: 20px;
+
+        }
+
+        #link3 {
+            color: blue;
+            font-size: 20px;
+        }
+
+        .videobg {
+            position: relative;
+            right: 0;
+            top: 0;
+            min-height: 100vh;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header><img src="media/NFLShield.png" width="35"><img src="media/NFLShield.png" width="35"> </header>
+    <section>
+        <div class="row">
+            <div class="col-sm-3">
+                <nav>
+                    <ul>
+                        <li><a href="#" class="btn btn-primary hvr-pulse-grow"><span id="link1"><strong>Home</strong></span></a></li>
+                        </br>
+                        <li><a href="#" class="btn btn-primary hvr-pulse-grow"><span id="link2"><strong>Coach History</strong></span></a></li>
+                        </br>
+                        <li><a href="#" class="btn btn-primary hvr-pulse-grow"><span id="link3"><strong>Game History</strong></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <video class="col-sm-9 videobg" autoplay muted loop>
+       <source src="media/superbowlvid.mp4" type="video/mp4">
+    </video>
+
+        </div>
+    </section>
+    <footer>
+        <p></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
